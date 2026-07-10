@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/
+*.parquet
+probe_out/
+*.log
+*.npz
+
+# credentials — never commit these
+.massive_key
+rclone.conf
